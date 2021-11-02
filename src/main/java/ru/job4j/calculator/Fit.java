@@ -10,7 +10,6 @@ public class Fit {
     public static double womanWeight(double height) {
         double rsl = (height - 110) * 1.15;
         return rsl;
-    }
 
     public static void main(String[] args) {
         short height = 185;
