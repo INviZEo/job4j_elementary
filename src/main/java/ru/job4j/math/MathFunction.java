@@ -10,11 +10,11 @@ public class MathFunction {
         return first * second;
     }
 
-    public static double trust(double first, double second) {
+    public static double minus(double first, double second) {
         return first - second;
     }
 
-    public static double rest(double first, double second) {
+    public static double divide(double first, double second) {
         return first / second;
 
     }
