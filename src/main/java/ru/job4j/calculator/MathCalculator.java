@@ -10,13 +10,21 @@ public class MathCalculator {
     }
 
     public static double restAndTrust(double first, double second) {
-        return rest(first, second)
-                + trust(first, second);
+        return divide(first, second)
+                + minus(first, second);
+    }
+
+    public static double all(double first , double second) {
+        return sum(first, second)
+                + multiply(first, second)
+                + divide(first, second)
+                + minus(first, second);
     }
 
     public static void main(String[] args) {
         System.out.println("Результат расчёта равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат расчёта равен: " + restAndTrust(10, 20));
+        System.out.println("Результат расчёта равен: " + all(10, 20));
 
     }
 }
