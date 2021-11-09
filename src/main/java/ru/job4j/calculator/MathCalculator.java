@@ -9,12 +9,12 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-    public static double restAndTrust(double first, double second) {
+    public static double minusAndDivide(double first, double second) {
         return divide(first, second)
                 + minus(first, second);
     }
 
-    public static double all(double first , double second) {
+    public static double all(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + divide(first, second)
@@ -23,7 +23,7 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Результат расчёта равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчёта равен: " + restAndTrust(10, 20));
+        System.out.println("Результат расчёта равен: " + minusAndDivide(10, 20));
         System.out.println("Результат расчёта равен: " + all(10, 20));
 
     }
