@@ -29,3 +29,4 @@ public class PrimeNumberTest {
         Assert.assertEquals(expected, result);
     }
 }
+
