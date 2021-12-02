@@ -7,4 +7,3 @@ public class ArrayDefinition {
         float[] prices = new float[40];
     }
 }
-
