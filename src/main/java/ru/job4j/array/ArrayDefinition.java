@@ -7,6 +7,9 @@ public class ArrayDefinition {
         names[1] = "Victor";
         names[2] = "Ivan";
         names[3] = "Stanislav";
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
         System.out.println(names[3]);
         short[] ages = new short[10];
         System.out.println(ages.length);
