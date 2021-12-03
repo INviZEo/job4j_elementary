@@ -5,14 +5,14 @@ public class Slash {
         for (int row = 0; row < size; row++) {
             for (int cell = 0; cell < size; cell++) {
 
-                boolean left = cell == row;
-                boolean right = cell + row == size && cell != row;
-                if (right) {
-                    System.out.println("0");
-                } else if (left) {
-                    System.out.println("0");
+                boolean left = row == cell;
+                boolean right = cell + row == size - 1;
+                if (left) {
+                    System.out.print("0");
+                } else if (right) {
+                    System.out.print("0");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
