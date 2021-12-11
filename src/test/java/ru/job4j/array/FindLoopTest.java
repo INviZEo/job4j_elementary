@@ -44,4 +44,3 @@ public class FindLoopTest {
         Assert.assertEquals(expected, result);
     }
 }
-
