@@ -23,7 +23,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHasLength5Then0() {
+    public void whenArrayHasNoFoundThenMinusOne() {
         int[] data = new int[] {5, 10, 3, 4, 1, 8, 2, 9};
         int el = 7;
         int start = 3;
