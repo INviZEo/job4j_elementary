@@ -36,3 +36,4 @@ public class SkipNegativeTest {
         Assert.assertArrayEquals(expected, result);
     }
 }
+
