@@ -7,11 +7,11 @@ public class JavaNameValidator {
                 || Character.isDigit(name.codePointAt(0));
         if (!rsl) {
             for (int i = 1; i < name.length(); i++) {
-                if (!isSpecialSymbol(name.codePointAt(i))
-                        || !Character.isUpperCase(name.codePointAt(i))
-                        || !isUpperLatinLetter(name.codePointAt(i))
-                        || !isLowerLatinLetter(name.codePointAt(i))
-                        || !Character.isDigit(name.codePointAt(i))) {
+                if (isSpecialSymbol(name.codePointAt(i))
+                        || Character.isUpperCase(name.codePointAt(i))
+                        || isUpperLatinLetter(name.codePointAt(i))
+                        || isLowerLatinLetter(name.codePointAt(i))
+                        || Character.isDigit(name.codePointAt(i))) {
                     rsl = false;
                     break;
                 }
